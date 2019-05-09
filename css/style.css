@@ -1,0 +1,97 @@
+body {
+    background: url('../images/recorder.png') no-repeat bottom center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.wrapper {
+    font-family: 'Nothing You Could Do', cursive;
+    width: 100%;
+    height: 100vh;
+}
+
+.note {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    height: 100vh;
+    background: url('../images/Notebook.png') no-repeat bottom center;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button__wraper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 5% 0 0;
+}
+
+button {
+    border: transparent;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.btnShowList {
+    height: 450px;
+    width: 100px;
+    background: url('../images/Pencil.png') no-repeat center center;
+    background-size: contain;
+}
+
+.btnEject {
+    height: 150px;
+    width: 120px;
+    background: url('../images/rubber.png') no-repeat center center;
+    background-size: contain;
+}
+
+.icon {
+    width: 50%;
+    height: 50%;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+
+.song__list {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    /*    transform: translate(-50%,-50% ) rotate(-26.5deg) skewX(37deg) skewY(0deg);*/
+    text-align: center;
+    width: 370px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 15px;
+}
+
+.list__item {
+    padding: 0;
+    margin: 0;
+    line-height: 10px;
+    margin-bottom: -12px;
+}
